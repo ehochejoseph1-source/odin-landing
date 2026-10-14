@@ -1,95 +1,123 @@
 body {
-    margin: 0%;
-    padding: 0%;
+  margin: 0%;
+  padding: 0%;
+  max-width: 100%;
 }
 nav {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-nav h2{
-    flex: 1;
-    background-color: blue;
+nav h2 {
+  flex: 1;
+  color: #f9faf8;
+  font-size: 24px;
 }
 nav ul {
-    flex: 1;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    
+  flex: 1;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
 }
 header {
-    background-color: rgb(4, 4, 36);
-    color: beige;
+  background-color: rgb(4, 4, 36);
+  color: beige;
 }
 header a {
-    color: rgb(204, 196, 187);
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 10px;
+  color: rgb(204, 196, 187);
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 10px;
 }
 .hero {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
 }
 .intro {
-    flex: 1;
-    padding-left: 10px;
+  flex: 1;
+  padding-left: 10px;
 }
 .intro a {
-    display: inline-block;
-    text-decoration: none;
-    background-color: blue;
-    margin-bottom: 10px;
-    height: 20px;
-    padding: 5px;
-    border-radius: 10px;
-    border: 2px solid;
-    width: 70px;
-    text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  background-color: blue;
+  margin-bottom: 10px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid;
+  width: 90px;
+  text-align: center;
 }
-.intro a:hover,a:hover {
-    background-color: brown;
-    border: 2px solid yellow;
+.intro a:hover,
+a:hover {
+  background-color: brown;
+  border: 2px solid yellow;
 }
 .hero img {
-    flex: 1;
+  flex: 1;
+  width: 10%;
+  height: 5%;
+  aspect-ratio: 2 / 1;
+  border-radius: 10px;
+  align-self: center;
+  margin-right: 3px;
 }
 .menu {
-    background-color: white;
+  background-color: white;
 }
 .menu h2 {
-    text-align: center;
+  text-align: center;
 }
 .menus {
-    display: flex;
-    justify-content: space-around;
-    margin: 10px ;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  gap: 15px;
+}
+.menus article {
+  width: 130px;
+  text-align: center;
+}
+.menu img {
+  width: 130px;
+  aspect-ratio: 1 /1;
+  border-radius: 10px;
 }
 .quote {
-    background-color: rgb(165, 162, 162);
-    padding: 80px;
-    font-size: 28px;
-    font-style: oblique;
-    color: rgb(58, 55, 55);
+  background-color: rgb(165, 162, 162);
+  padding: 4%;
+  font-size: 34px;
+  font-weight: 300;
+  font-style: italic;
+  color: rgb(58, 55, 55);
 }
 .action {
-    display: flex;
-    align-items: center;
-    background-color: blue;
-    margin: 8%;
-    border-radius: 10px;
-    padding: 10px;
-    color: beige;
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  margin: 8%;
+  border-radius: 10px;
+  padding: 10px;
+  color: beige;
 }
 .button {
-    display: flex;
-    justify-content: center;
-    flex: 1;
+  display: flex;
+  justify-content: center;
+  flex: 1;
 }
 .button button {
-  height: 30px; 
+  height: 30px;
   width: 90px;
   border-radius: 10px;
   background-color: blue;
@@ -97,15 +125,18 @@ header a {
   color: azure;
 }
 .button button:hover {
-   background-color: brown;
-    border: 2px solid yellow; 
-    transform: scale(1.05);
+  background-color: brown;
+  border: 2px solid yellow;
+  transform: scale(1.05);
+}
+.button button:active {
+  background-color: black;
 }
 footer {
-    background-color: rgb(4, 4, 36);
-    color: beige;
-    height: 11vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: rgb(4, 4, 36);
+  color: beige;
+  height: 11vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
