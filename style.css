@@ -1,0 +1,111 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h2{
+    flex: 1;
+    background-color: blue;
+}
+nav ul {
+    flex: 1;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+header {
+    background-color: rgb(4, 4, 36);
+    color: beige;
+}
+header a {
+    color: rgb(204, 196, 187);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+.hero {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.intro {
+    flex: 1;
+    padding-left: 10px;
+}
+.intro a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: blue;
+    margin-bottom: 10px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid;
+    width: 70px;
+    text-align: center;
+}
+.intro a:hover,a:hover {
+    background-color: brown;
+    border: 2px solid yellow;
+}
+.hero img {
+    flex: 1;
+}
+.menu {
+    background-color: white;
+}
+.menu h2 {
+    text-align: center;
+}
+.menus {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px ;
+}
+.quote {
+    background-color: rgb(165, 162, 162);
+    padding: 80px;
+    font-size: 28px;
+    font-style: oblique;
+    color: rgb(58, 55, 55);
+}
+.action {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    margin: 8%;
+    border-radius: 10px;
+    padding: 10px;
+    color: beige;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.button button {
+  height: 30px; 
+  width: 90px;
+  border-radius: 10px;
+  background-color: blue;
+  border-color: azure;
+  color: azure;
+}
+.button button:hover {
+   background-color: brown;
+    border: 2px solid yellow; 
+    transform: scale(1.05);
+}
+footer {
+    background-color: rgb(4, 4, 36);
+    color: beige;
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
